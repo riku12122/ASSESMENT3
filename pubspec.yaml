@@ -1,0 +1,41 @@
+name: simple_todo
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_slidable: ^3.1.1
+  youtube_player_flutter: ^9.1.1
+  shared_preferences: ^2.0.15
+  flutter_inappwebview: ^6.1.5
+  firebase_core: ^3.10.0
+  cloud_firestore: ^5.6.1
+  firebase_auth: ^5.4.0
+  firebase_storage: ^12.4.0
+  dash_chat_2: ^0.0.20
+  firebase_analytics: ^11.4.0
+  google_fonts: ^6.2.1
+  delightful_toast: ^1.1.0
+  get_it: ^8.0.3
+  image_picker: ^1.0.7
+  path: ^1.9.0
+  math_expressions: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/profile_image.jpg # Pastikan jalur ini sesuai dengan lokasi gambar Anda
